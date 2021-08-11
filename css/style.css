@@ -1,4 +1,121 @@
+:root{
+    --first-text-color: #212121;
+    --second-text-color: #757575;
+    --third-text-color: #2196F3;
+    --fourth-text-color: #ffffff;
+    --white-hide: rgba(255, 255, 255, 0.6);
+    --bg-color: #2F303A; 
+}
 .body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
+}
+/* header */
+.webstudio-header{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    color: var(--third-text-color); 
+}
+.studio-header{
+color: var(--first-text-color);
+}
+/* header-nav */
+
+/* надо разобраться ↓ */
+.nav-links{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    list-style: none;
+    text-decoration-line: none;
+    outline-style: none;
+    color: var(--first-text-color);
+}
+/* надо разобраться ↑ */
+
+/* index-header-mail */
+.header-mail{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--second-text-color);
+}
+.header-mail:hover{
+  color: var(--third-text-color);
+}
+/* header-tel */
+.header-tel{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--second-text-color);
+}
+
+/* main-hero-section */
+.hero{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: var(--bg-color);
+}
+.hero-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    color: var(--fourth-text-color);
+}
+/* hero-button */
+.hero-button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--fourth-text-color);
+}
+/* доработать↑ */
+
+
+
+/* footer-index. */
+.footer{
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background-color: var(--bg-color);
+}
+.webstudio-footer{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--third-text-color);
+    text-decoration: none;
+}
+.studio-footer{
+    color: var(--fourth-text-color);
+}
+.address{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--fourth-text-color);
 }
