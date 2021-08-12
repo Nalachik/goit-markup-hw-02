@@ -4,9 +4,111 @@
   --third-text-color: #2196f3;
   --fourth-text-color: #ffffff;
   --special-hide-color: rgba(255, 255, 255, 0.6);
+  --special-color:#000000;
   --bg-color: #2f303a;
 }
 .body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
 }
+
+/* Global class ↓ */
+.list{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+}
+/* Global class ↑ */
+
+/* THE SAME ELEMENTS ↓ */
+/* header-index-portfolio */
+/* webstudio */
+.header-webstudio{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.92;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+.header-studio{
+  color: var(--special-color);
+}
+
+
+/* Navigation-links */
+.nav-links .link:hover,
+.nav-links .link:focus{
+color: var(--third-text-color);
+}
+.header-studio-link,
+.header-portfolio-link, 
+.header-contacts-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* header-contacts-info */
+.header-contacts-info .link:hover,
+.header-contacts-info .link:focus{
+  color: var(--third-text-color);
+}
+.header-mail,
+.header-tel{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+
+/* footer-index-portfolio */
+.footer{
+  background-color: var(--bg-color);
+}
+/* footer-webstudio */
+.footer-webstudio{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+.footer-studio{
+  color: var(--fourth-text-color);
+}
+/* address */
+.address{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fourth-text-color);
+}
+/* footer-contacts-info */
+.footer-mail,
+.footer-tel{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--special-hide-color);
+}
+/* THE SAME ELEMENTS ↑ */
+
+/* INDEX MAIN */
