@@ -7,7 +7,7 @@
   --special-color:#000000;
   --bg-color: #2f303a;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
 }
@@ -46,8 +46,6 @@ color: var(--third-text-color);
 .header-studio-link,
 .header-portfolio-link, 
 .header-contacts-link {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -61,8 +59,6 @@ color: var(--third-text-color);
 }
 .header-mail,
 .header-tel{
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -90,8 +86,6 @@ color: var(--third-text-color);
 }
 /* address */
 .address{
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -99,10 +93,12 @@ color: var(--third-text-color);
   color: var(--fourth-text-color);
 }
 /* footer-contacts-info */
+.footer-contacts-info .link:hover,
+.footer-contacts-info .link:focus{
+  color: var(--third-text-color);
+}
 .footer-mail,
 .footer-tel{
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -111,4 +107,27 @@ color: var(--third-text-color);
 }
 /* THE SAME ELEMENTS ↑ */
 
+
 /* INDEX MAIN */
+/* hero-section */
+.hero-banner{
+  background-color: var(--bg-color);
+}
+.hero-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1,36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fourth-text-color);
+}
+.hero-button{
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--fourth-text-color);
+  background-color: var(--third-text-color);
+}
