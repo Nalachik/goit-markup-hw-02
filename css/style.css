@@ -108,7 +108,7 @@ color: var(--third-text-color);
 /* THE SAME ELEMENTS ↑ */
 
 
-/* INDEX MAIN */
+/* INDEX */
 /* hero-section */
 .hero-banner{
   background-color: var(--bg-color);
@@ -131,3 +131,56 @@ color: var(--third-text-color);
   color: var(--fourth-text-color);
   background-color: var(--third-text-color);
 }
+/* section-two-we-offer */
+.offer-title{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+.offer-description{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em
+  var(--second-text-color)
+}
+/* sectiont-what-we-do */
+.what-we-do{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* section-our-team */
+.team{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.team-name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.team-duty{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+
+/* PORTFOLIO  */
