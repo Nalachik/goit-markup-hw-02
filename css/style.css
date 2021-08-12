@@ -1,9 +1,9 @@
 :root{
-    --first-text-color: #212121;
-    --second-text-color: #757575;
+    --main-text-color: #212121;
+    --secondery-text-color: #757575;
     --third-text-color: #2196F3;
     --fourth-text-color: #ffffff;
-    --white-hide: rgba(255, 255, 255, 0.6);
+    --spacial-hide-color: rgba(255, 255, 255, 0.6);
     --bg-color: #2F303A; 
 }
 .body {
