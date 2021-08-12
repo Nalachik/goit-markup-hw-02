@@ -5,7 +5,8 @@
   --fourth-text-color: #ffffff;
   --special-hide-color: rgba(255, 255, 255, 0.6);
   --special-color:#000000;
-  --bg-color: #2f303a;
+  --bg-color-one: #2f303a;
+  --bg-color-two:#F5F4FA;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -69,7 +70,7 @@ color: var(--third-text-color);
 
 /* footer-index-portfolio */
 .footer{
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-one)
 }
 /* footer-webstudio */
 .footer-webstudio{
@@ -111,7 +112,7 @@ color: var(--third-text-color);
 /* INDEX */
 /* hero-section */
 .hero-banner{
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-one);
 }
 .hero-title{
   font-weight: 900;
@@ -184,3 +185,34 @@ color: var(--third-text-color);
 
 
 /* PORTFOLIO  */
+/* main */
+/* filters */
+.filters :hover,
+.filters :focus{
+  cursor: pointer;
+  color: var(--third-text-color);
+}
+.button{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color:var(--bg-color-two);
+}
+/* projects */
+.project-name{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2.00;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.project-idea{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
