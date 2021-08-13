@@ -191,6 +191,7 @@ color: var(--third-text-color);
 .filters :focus{
   color: var(--fourth-text-color);
 }
+/* button? */
 .button{
   cursor: pointer;
   font-weight: 500;
